@@ -1,0 +1,232 @@
+(footprint "LED_RGB_EC15_1.6x1.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "RGB LED, common anode")
+	(tags "LED RGB ")
+	(property "Reference" "REF**"
+		(at 0.12 -2.25 0)
+		(layer "F.SilkS")
+		(uuid "a84f5676-3889-436b-9571-02986637dba4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_RGB_EC15_1.6x1.5mm"
+		(at 0 1.75 0)
+		(layer "F.Fab")
+		(uuid "8c3a0903-e667-4f3f-9b12-dced1f77902d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "de00c40f-55ee-4b95-9555-8e64502b5706")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a102a603-bdba-4e40-aeb9-3a106936a79e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "401a55c7-bb07-40ec-8a8c-6b90fe4390d9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.3 -1.6)
+		(end -0.3 -1.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08b14443-386e-4e2f-8644-b361cc1034e3")
+	)
+	(fp_line
+		(start -0.3 1.6)
+		(end -0.3 1.35)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d561222-7bec-4bc3-9908-847f4f70a6eb")
+	)
+	(fp_line
+		(start -0.8 -0.75)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "901c8eb9-fb5b-4da4-a969-f7a22db1a400")
+	)
+	(fp_line
+		(start -0.3 -1.25)
+		(end 0.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8a3934ce-97aa-43dc-99d4-4799a512e2a3")
+	)
+	(fp_line
+		(start -0.3 1.25)
+		(end 0.3 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5d9f1811-3562-421a-aaff-0e9c9b401fa9")
+	)
+	(fp_line
+		(start 0.8 -0.75)
+		(end 0.8 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e86dbd22-c980-4d8e-a040-c86809975752")
+	)
+	(fp_arc
+		(start -0.8 -0.75)
+		(mid -0.653553 -1.103554)
+		(end -0.3 -1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "db30631b-fcdf-4248-b844-02bc377f8088")
+	)
+	(fp_arc
+		(start -0.3 1.25)
+		(mid -0.653553 1.103553)
+		(end -0.8 0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "16ae8cb2-855c-4cdf-8ccb-52e1285539d4")
+	)
+	(fp_arc
+		(start 0.3 -1.25)
+		(mid 0.653553 -1.103553)
+		(end 0.8 -0.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e7750d37-6200-4ac3-9210-985defdf9d04")
+	)
+	(fp_arc
+		(start 0.8 0.75)
+		(mid 0.653553 1.103553)
+		(end 0.3 1.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "44081d09-3720-4d4c-adfd-16986b742bb6")
+	)
+	(fp_poly
+		(pts
+			(xy 0.25 -0.15) (xy 0.45 0.15) (xy 0.65 -0.15)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "314b0f53-4909-45ea-a13f-e3cbe8723c6d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 0 90)
+		(layer "F.Fab")
+		(uuid "2bcf4974-2841-412f-8dd4-be62848bffe3")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.06 -0.45 90)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6dd259ab-6e3f-4a9f-94d7-a21b22932737")
+	)
+	(pad "2" smd rect
+		(at -1.06 -0.45 90)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "c7b7223d-7a0a-4b75-8c7c-5d62bd855dfc")
+	)
+	(pad "3" smd rect
+		(at -1.06 0.45 90)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f5ca6e0d-91f0-4425-99a6-8e413991d3dd")
+	)
+	(pad "4" smd rect
+		(at 1.06 0.45 90)
+		(size 0.5 0.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "df159f6f-219f-4986-b816-54a1f53ce6ba")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/LED_SMD.3dshapes/LED_RGBA_1615.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 0)
+		)
+	)
+)
